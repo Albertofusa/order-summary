@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 16px;
+}
+
+button {
+  border: 0;
+  outline: 0;
+}
+
+.container {
+  height: 1000px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d6e1ff;
+}
+
+.card {
+  height: 600px;
+  width: 400px;
+  border-radius: 15px;
+  background-color: white;
+  box-shadow: 1px 0px 38px -5px rgba(0, 0, 0, 0.45);
+}
+
+.imagen {
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.card-information {
+  padding: 30px;
+}
+
+.title {
+  text-align: center;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+
+.p-description {
+  text-align: center;
+  color: hsl(224, 23%, 55%);
+  margin-bottom: 20px;
+  line-height: 25px;
+}
+
+.box {
+  height: 90px;
+  display: flex;
+  align-items: center;
+  gap: 5em;
+  border-radius: 15px;
+  background-color: hsl(225, 100%, 98%);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.box-plan {
+  display: flex;
+  gap: 1em;
+}
+
+.text {
+  line-height: 25px;
+}
+
+.price {
+  color: hsl(224, 23%, 55%);
+}
+
+.link {
+  color: hsl(245, 75%, 52%);
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 800;
+}
+
+.button {
+  width: 100%;
+  border-radius: 10px;
+  background-color: hsl(245, 75%, 52%);
+  color: hsl(225, 100%, 94%);
+  padding: 15px;
+  cursor: pointer;
+  box-shadow: 1px 23px 13px -14px rgba(0, 0, 0, 0.36);
+  margin-bottom: 25px;
+  font-weight: 700;
+}
+
+.p-cancel {
+  color: hsl(224, 23%, 55%);
+  text-align: center;
+  cursor: pointer;
+  font-weight: 800;
+}
